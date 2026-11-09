@@ -1,0 +1,38 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+# Local databases and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.bak
+# Python environments, including setup backups
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Frontend dependencies and build output
+node_modules/
+dist/
+# Infrastructure state and local tooling
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+# OS/editor files and logs
+.DS_Store
+.vscode/
+.idea/
+*.log
